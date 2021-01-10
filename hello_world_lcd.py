@@ -35,6 +35,6 @@ fontdata1 = [
 mylcd.lcd_load_custom_chars(fontdata1)
 mylcd.lcd_write(0x80)
 mylcd.lcd_write_char(0)
-mylcd.lcd_write_char(1)
 mylcd.lcd_write_char(2)
+mylcd.lcd_write_char(4)
 
