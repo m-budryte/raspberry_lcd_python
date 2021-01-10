@@ -5,8 +5,7 @@ from time import *
 
 mylcd = RPi_I2C_driver.lcd()
 
-val = input("Enter your value: ") 
-print(val) 
+input_value = input("Enter your value: ") 
 
 mylcd.lcd_display_string("hiiiiii", 1)
 sleep(1)
