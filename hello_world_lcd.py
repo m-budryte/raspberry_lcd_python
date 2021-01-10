@@ -5,14 +5,10 @@ from time import *
 
 mylcd = RPi_I2C_driver.lcd()
 
-console_input = input("enter your mesage: ")
+val = input("Enter your value: ") 
+print(val) 
 
-mylcd.lcd_display_string(console_input, 1)
-sleep(1)
-
-mylcd.lcd_clear()
-
-mylcd.lcd_display_string("clear the screen", 1)
+mylcd.lcd_display_string(val, 1)
 sleep(1)
 
 mylcd.lcd_clear()
