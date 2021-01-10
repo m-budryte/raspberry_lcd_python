@@ -12,7 +12,7 @@ while input_value != "exit":
 
     mylcd.lcd_display_string(input_value, 1)
     
-    sleep(5)
+    sleep(1)
 
 mylcd.lcd_clear()
 
