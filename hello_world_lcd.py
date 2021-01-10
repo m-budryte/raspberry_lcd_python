@@ -39,7 +39,7 @@ mylcd.lcd_write_char(0)
 mylcd.lcd_write_char(1)
 mylcd.lcd_write_char(2)
 sleep(5)
-mylcd.clear_screen()
+mylcd.lcd_clear()
 
 
 
