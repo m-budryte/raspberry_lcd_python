@@ -7,4 +7,6 @@ print(mylcd)
 
 
 while True:
-    mylcd.lcd_display_string("HEY BITCH", 1)
+    mylcd.backlight(0)
+    sleep(5)
+    mylcd.backlight(1)
