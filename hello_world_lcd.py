@@ -10,8 +10,10 @@ input_value = ""
 while input_value != "exit":
     input_value = raw_input("Enter your msg: ") 
 
-    mylcd.lcd_display_string(input_value, 1,5)
-    
+    mylcd.lcd_display_string(input_value, 1)
+    mylcd.lcd_display_string(input_value, 2)
+    mylcd.lcd_display_string(input_value, 3)
+
     sleep(1)
 
 mylcd.lcd_clear()
